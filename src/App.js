@@ -1,4 +1,3 @@
-import './App.css';
 import NavbarClass from "./components/NavbarClass";
 import NavbarFunction from "./components/NavbarFunction";
 
