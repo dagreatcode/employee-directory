@@ -4,7 +4,7 @@ class NavbarClass extends Component {
     render() {
         return (
             <div>
-                
+               <h1>Stateful Component Class Navbar</h1> 
             </div>
         );
     }
@@ -12,4 +12,4 @@ class NavbarClass extends Component {
 
 export default NavbarClass;
 
-//Stateful 
+//Stateful Component
