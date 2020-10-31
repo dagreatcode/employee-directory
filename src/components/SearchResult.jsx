@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import API from "../utils/API";
+import apiWorkers from "../utils/apiWorkers";
 // import Employee from "./components/Employee";
 
 class SearchResult extends Component {
@@ -10,7 +10,9 @@ class SearchResult extends Component {
     render() {
         return (
             <div>
-                
+                <theOffice className="mt-4"
+                    Hello
+                />
             </div>
         );
     }

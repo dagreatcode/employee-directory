@@ -16,8 +16,8 @@ function App() {
           </li>
         ))}
       </ul> */}
-      {apiWorkers}
-      {Worker}
+      <h1>{Workers.firstname}</h1>
+      {Worker.firstname}
     </div>
   );
 }
