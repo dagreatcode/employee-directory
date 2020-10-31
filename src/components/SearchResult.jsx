@@ -6,11 +6,16 @@ import App from "../App.css";
 class SearchResult extends Component {
       // Setting the initial state of the Counter component
   state = {
-    search: 0
-    result: [],
+    search: "",
+    result: []
   };
 
-//   componentDidMount() {}
+componentDidMount() {
+    apiWorkers.worker().then((res) => {
+        this.setState({ result: res.data.result});
+        console.log(res.data.result);
+    })
+}
 
     render() {
         return (
