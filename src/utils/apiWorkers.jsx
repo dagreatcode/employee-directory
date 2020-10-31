@@ -5,9 +5,8 @@ import axios from "axios";
 
 const URL = "https://www.officeapi.dev/api/characters/";
 
-const apiWorkers = () => {
-    const worker = axios.get(URL);
-    return worker;
+export default {
+    worker: function() {
+      return axios.get(URL);
+    }
 };
-
-export default apiWorkers;
