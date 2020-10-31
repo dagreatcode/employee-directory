@@ -7,6 +7,16 @@ function App() {
       <NavbarClass />
       <NavbarFunction />
       <h1>Hello World</h1>
+      {apiWorkers.map((workers) => (
+        <theOffice 
+        {
+          "_id": "5e93b4f03af44260882e33b1",
+          "firstname": "Jim",
+          "lastname": "Halpert",
+          "__v": 0
+          },
+        />
+      ))}
     </div>
   );
 }
