@@ -1,5 +1,3 @@
-import NavbarClass from "./components/NavbarClass";
-import NavbarFunction from "./components/NavbarFunction";
 import apiWorkers from "./utils/apiWorkers";
 // import index from './index';
 
