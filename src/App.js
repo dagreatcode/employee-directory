@@ -7,12 +7,13 @@ function App() {
       <NavbarClass />
       <NavbarFunction />
       <h1>Hello World</h1>
-      
-      {apiWorkers.map((workers) => (
-
-        <li key={worker._id}>{workers.firstname} - {workers.lastname}</li>
-
-      ))}
+      <ul classMake="list-group>">
+        {apiWorkers.map((workers) => (
+          <li key={worker._id}>
+            {workers.firstname} - {workers.lastname}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
