@@ -6,8 +6,12 @@ import App from "../App.css";
 class SearchResult extends Component {
       // Setting the initial state of the Counter component
   state = {
-    searchresult: 0
+    search: 0
+    result: [],
   };
+
+//   componentDidMount() {}
+
     render() {
         return (
             <div>
