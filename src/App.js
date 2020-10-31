@@ -1,7 +1,7 @@
 import NavbarClass from "./components/NavbarClass";
 import NavbarFunction from "./components/NavbarFunction";
 import apiWorkers from "./utils/apiWorkers";
-import index from './index';
+// import index from './index';
 
 function App() {
   return (
@@ -9,13 +9,15 @@ function App() {
       <NavbarClass />
       <NavbarFunction />
       <h1>Hello World</h1>
-      <ul classMake="list-group>">
+      {/* <ul classMake="list-group>">
         {apiWorkers.map((workers) => (
-          <li key={worker._id}>
-            {workers.firstname} - {workers.lastname}
+          <li key={apiWorkers._id}>
+            {apiWorkers.firstname} - {apiWorkers.lastname}
           </li>
         ))}
-      </ul>
+      </ul> */}
+      {apiWorkers}
+      {Worker}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import API from "../utils/API";
-import Employee from "./components/Employee";
+// import API from "../utils/API";
+// import Employee from "./components/Employee";
 
 class SearchResult extends Component {
       // Setting the initial state of the Counter component
