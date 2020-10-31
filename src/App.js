@@ -8,10 +8,11 @@ function App() {
       <NavbarFunction />
       <h1>Hello World</h1>
       {apiWorkers.map((workers) => (
-        <theOffice  
-            firstname={workers.firstname}
-            lastname={workers.lastname}
-        />
+        // <theOffice  
+            // firstname={workers.firstname}
+            // lastname={workers.lastname}
+            <li>{workers.firstname} - {workers.lastname}</li>
+        // />
       ))}
     </div>
   );
