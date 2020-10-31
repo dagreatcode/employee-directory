@@ -5,7 +5,7 @@ import React from 'react';
 
 const URL = "https://www.officeapi.dev/api/characters/";
 const apiWorkers = () => {
-    worker = axios.get(URL);
+    const worker = axios.get(URL);
     return worker;
 };
 

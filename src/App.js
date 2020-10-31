@@ -1,5 +1,6 @@
 import NavbarClass from "./components/NavbarClass";
 import NavbarFunction from "./components/NavbarFunction";
+import apiWorkers from "./utils/apiWorkers";
 
 function App() {
   return (
