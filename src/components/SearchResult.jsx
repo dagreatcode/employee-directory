@@ -4,6 +4,10 @@ import "../App.css";
 import "../Employee";
 
 class SearchResult extends Component {
+      // Setting the initial state of the Counter component
+  state = {
+    searchresult: 0
+  };
     render() {
         return (
             <div>
