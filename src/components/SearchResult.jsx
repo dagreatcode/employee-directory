@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import API from "../utils/API";
-import "../App.css";
-import "../Employee";
+import API from "./utils/API";
+import App from "./components/App.css";
+import Employee from "./components/Employee";
 
 class SearchResult extends Component {
       // Setting the initial state of the Counter component
